@@ -11,5 +11,8 @@ requires-python = ">=3.10"
 authors = [{ name = "mtellami", email = "moadtell@gmail.com" }]
 dependencies = ["numpy>=1.20", "matplotlib>=3.5"]
 
+[project.scripts]
+dslr-describe = "dslr.commands.describe:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
