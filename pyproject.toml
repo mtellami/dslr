@@ -16,6 +16,8 @@ dslr-describe = "dslr.commands.describe:main"
 dslr-histogram = "dslr.commands.histogram:main"
 dslr-scatter-plot = "dslr.commands.scatter_plot:main"
 dslr-pair-plot = "dslr.commands.pair_plot:main"
+dslr-logreg-train = "dslr.commands.logreg_train:main"
+dslr-logreg-predict = "dslr.commands.logreg_predict:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
